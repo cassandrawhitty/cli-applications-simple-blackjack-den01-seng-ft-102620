@@ -52,6 +52,6 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  run_program
 end
     
