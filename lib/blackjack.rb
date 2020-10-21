@@ -40,7 +40,6 @@ def hit?(card_total)
   if user_input != 's' && user_input != 'h'
     invalid_command
     prompt_user
-    user_input = get_user_input
   end
   return card_total
 end
