@@ -56,7 +56,7 @@ end
 def runner
   welcome 
   user_hand = initial_round
-  hit?(card_total)
+  hit?(user_hand)
   display_card_total(card_total)
 end
     
