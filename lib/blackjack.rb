@@ -56,7 +56,6 @@ end
 def runner
   welcome 
   user_hand = initial_round
-  binding.pry
   hit?(user_hand)
   display_card_total(card_total)
 end
