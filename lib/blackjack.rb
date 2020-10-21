@@ -38,8 +38,8 @@ def hit?(card_total)
     card_total += card_3
   end
   if user_input != 's' && user_input != 'h'
-    error_message = invalid_command
-    puts error_message
+    invalid_command
+    
   end
   return card_total
 end
