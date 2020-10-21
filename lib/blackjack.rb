@@ -1,4 +1,5 @@
 def welcome
+  puts "Welcome to the Blackjack Table"
   # code #welcome here
 end
 
@@ -6,7 +7,7 @@ def deal_card
   # code #deal_card here
 end
 
-def display_card_total
+def display_card_total(num)
   # code #display_card_total here
 end
 
