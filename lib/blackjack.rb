@@ -38,7 +38,7 @@ def hit?(card_total)
     card_total += card_3
   end
   if user_input != 's' && user_input != 'h'
-    puts invalid_command
+    p invalid_command
   end
   return card_total
 end
