@@ -32,7 +32,7 @@ end
 
 def hit?(card_total)
   print prompt_user
-  puts get_user_input
+  print get_user_input
   if get_user_input == 'h'
     card_3 = deal_card
     card_total += card_3
